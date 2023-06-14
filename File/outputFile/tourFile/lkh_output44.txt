@@ -1,0 +1,38 @@
+NAME : ../File/prFile/tspFile/tsp_file44.tsp.481.tour
+COMMENT : Length = 481
+COMMENT : Found by LKH-3 [Keld Helsgaun] Wed Jun 14 15:57:59 2023
+TYPE : TOUR
+DIMENSION : 30
+TOUR_SECTION
+1
+7
+8
+3
+13
+29
+24
+17
+4
+23
+5
+22
+16
+21
+30
+2
+14
+26
+12
+18
+6
+9
+11
+28
+27
+10
+20
+15
+19
+25
+-1
+EOF

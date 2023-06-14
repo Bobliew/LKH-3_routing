@@ -1,6 +1,8 @@
 import asyncio
 import os
 import random
+import uvloop
+asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 def generate_2d_array(n):
     array = [[random.randint(1, 100), random.randint(1, 100)] for _ in range(n)]
@@ -11,7 +13,7 @@ async def run_testmain(par_file, index):
     # Generate TSP file
     tsp_file = 'tsp_file.tsp'.format(index)
  
-    cities = generate_2d_array(30)
+    cities = generate_2d_array(40)
     generate_tsp_file(tsp_file, cities)
 
     # Generate parameter file
@@ -53,7 +55,7 @@ async def main():
     # Run multiple testmain functions asynchronously
     tasks = []
     # 异步数量设置为10，但取决于公司服务器的算力;
-    for i in range(10):
+    for i in range(100):
         par_file = 'pr{}.par'.format(i)
         tasks.append(asyncio.create_task(run_testmain(par_file, i)))
     await asyncio.gather(*tasks)
