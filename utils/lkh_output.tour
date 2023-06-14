@@ -1,0 +1,13 @@
+NAME : tsp_file.tsp.10.tour
+COMMENT : Length = 10
+COMMENT : Found by LKH-3 [Keld Helsgaun] Wed Jun 14 10:30:51 2023
+TYPE : TOUR
+DIMENSION : 5
+TOUR_SECTION
+1
+2
+3
+5
+4
+-1
+EOF

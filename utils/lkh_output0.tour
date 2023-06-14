@@ -1,0 +1,38 @@
+NAME : tsp_file.tsp.491.tour
+COMMENT : Length = 491
+COMMENT : Found by LKH-3 [Keld Helsgaun] Wed Jun 14 10:44:28 2023
+TYPE : TOUR
+DIMENSION : 30
+TOUR_SECTION
+1
+14
+20
+17
+19
+12
+4
+13
+11
+21
+18
+10
+3
+26
+5
+27
+30
+2
+15
+23
+6
+24
+16
+9
+28
+8
+7
+29
+22
+25
+-1
+EOF
